@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <title>Stellium Demo Links</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 400px;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .card-header {
+      background: #bca7f5; /* light purple */
+      padding: 40px 30px 40px;
+      text-align: center;
+      position: relative;
+      border-bottom-left-radius: 50% 20%;
+      border-bottom-right-radius: 50% 20%;
+    }
+
+    .card-header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: contain;
+      background: #fff;
+      padding: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card-body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card-body h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .card-body p {
+      font-size: 0.9rem;
+      color: #666;
+      margin: 8px 0 20px;
+    }
+
+    .link-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f9f9f9;
+      padding: 12px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .link-item:hover {
+      background: #eee;
+    }
+
+    .link-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .link-left img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      object-fit: contain;
+    }
+
+    .arrow {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .section-title {
+      text-align: left;
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin: 20px 0 10px;
+      color: #444;
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        margin: 10px;
+      }
+    }
+    .brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.brand-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Header -->
+    <div class="card-header">
+  <a href="https://stellium.com" class="brand">
+    <img src="./stellogo.png" alt="Stellium Logo" class="brand-logo">
+    <h2 class="brand-name">Stellium Inc</h2>
+  </a>
+</div>
+
+
+    <!-- Body -->
+    <div class="card-body">
+      <h2>Thank you for connecting with us</h2>
+      <p>Please find the demo links of our products below</p>
+
+      <!-- Products -->
+      <div class="link-list">
+        <a href="https://www.youtube.com/watch?v=5bP-hRzKoK4" class="link-item">
+          <div class="link-left">
+            <img src="./4kast.ai.png" alt="4Kast.ai">
+            <span>4Kast.ai</span>
+          </div>
+          <span class="arrow">➝</span>
+        </a>
+    
+        <a href="https://www.youtube.com/watch?v=x65VVs-aSUI&ab_channel=MadebyGoogle" class="link-item">
+          <div class="link-left">
+            <img src="./chainbrain.jpeg" alt="ChainBrain">
+            <span>ChainBrain</span>
+          </div>
+          <span class="arrow">➝</span>
+        </a>
+
+        
+      </div>
+
+      <!-- Socials -->
+      <p class="section-title">Find us on</p>
+      <div class="link-list">
+        <a href="https://www.linkedin.com/company/stelliuminc/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BW5b70L%2FYSxmtqNKCnUHQoQ%3D%3D" class="link-item">
+          <div class="link-left">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+          </div>
+          <span class="arrow">➝</span>
+        </a>
+
+        <a href="https://stellium.com" class="link-item">
+          <div class="link-left">
+            <img src="./website.png" alt="Stellium.com">
+            <span>Stellium Inc</span>
+          </div>
+          <span class="arrow">➝</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
